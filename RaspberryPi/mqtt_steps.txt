@@ -1,0 +1,2 @@
+#°²×°MQTT paho
+sudo pip install paho-mqtt
