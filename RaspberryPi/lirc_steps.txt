@@ -1,0 +1,50 @@
+sudo apt-get install lirc
+
+sudo nano /etc/modules	//最后加上两行
+-- lirc_dev
+-- lirc_rpi gpio_in_pin=18 gpio_out_pin=22
+
+sudo nano /boot/config.txt //最后加一行
+-- dtoverdelay=lirc-rpi,gpio_in_pin=18,gpio_out_pin=22
+
+sudo nano /etc/modprobe.d/ir-remote.conf //加一行//可有可没
+-- options lirc_rpi gpio_in_pin=18 gpio_out_pin=22
+
+sudo reboot //重启
+
+//--------------------------------------------------------------------------------
+
+sudo /etc/init.d/lircd stop
+
+mode2 -d /dev/lirc0
+
+sudo /etc/init.d/lircd stop
+
+sudo irrecord -d /dev/lirc0 ~/lircd.conf
+
+sudo mv remotename.lircd.conf /etc/lirc/lircd.conf.d/
+
+sudo /etc/init.d/lircd start
+
+irsend list remotename ""
+
+irsend SEND_ONCE remotename keyname
+
+
+//--------------------------------------------------------------------------------
+
+sudo modprobe lirc_rpi
+
+sudo kill $(pidof lircd)
+
+sudo mode2 --driver default --device /dev/lirc0 //测试接受信号//不必要
+
+sudo kill $(pidof lircd)
+
+irrecord -d /dev/lirc0 ~/lircd.conf //开始记录
+
+sudo cp /home/pi/robot.lircd.conf /etc/lirc/robot.lircd.conf //复制到lirc目录
+
+irsend list robot ""
+
+irsend SEND_ONCE robot KEY_POWER
