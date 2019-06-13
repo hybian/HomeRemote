@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="X:\github\HomeRemote\Android\PublicDemo\app\libs\NlsClientSdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ed25fc625e65e7466edd0d6025ddafb3b3bcbde0">
+        <dex dex="X:\github\HomeRemote\Android\PublicDemo\app\build\intermediates\pre-dexed\debug\NlsClientSdk_ab0a991e6678c5116a23c092a6592e8898e14f2b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="X:\github\HomeRemote\Android\Android_SDK_1.1.2\Android_SDK_1.1.2\PublicDemo\app\libs\NlsClientSdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ed25fc625e65e7466edd0d6025ddafb3b3bcbde0">
+        <dex dex="X:\github\HomeRemote\Android\Android_SDK_1.1.2\Android_SDK_1.1.2\PublicDemo\app\build\intermediates\pre-dexed\debug\NlsClientSdk_5f463dfa9b8a799c2220c42913a0d064f6a6e0b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="X:\github\HomeRemote\Android\PublicDemo\app\libs\fastjson-1.1.52.android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6fcd2df42d3576368514855c72baabe3b6e318e0">
+        <dex dex="X:\github\HomeRemote\Android\PublicDemo\app\build\intermediates\pre-dexed\debug\fastjson-1.1.52.android_01fefa21ad88855e110b4a3984329bea3396ce0c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="X:\github\HomeRemote\Android\Android_SDK_1.1.2\Android_SDK_1.1.2\PublicDemo\app\libs\fastjson-1.1.52.android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6fcd2df42d3576368514855c72baabe3b6e318e0">
+        <dex dex="X:\github\HomeRemote\Android\Android_SDK_1.1.2\Android_SDK_1.1.2\PublicDemo\app\build\intermediates\pre-dexed\debug\fastjson-1.1.52.android_f6a38152418e28b9deaf8351a4e4c61ec38dead6.jar" />
+    </item>
+
+</items>

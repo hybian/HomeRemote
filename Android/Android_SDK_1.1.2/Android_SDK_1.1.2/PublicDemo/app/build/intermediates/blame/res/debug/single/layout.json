@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "X:\\github\\HomeRemote\\Android\\Android_SDK_1.1.2\\Android_SDK_1.1.2\\PublicDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_public_nlu.xml",
+        "source": "X:\\github\\HomeRemote\\Android\\Android_SDK_1.1.2\\Android_SDK_1.1.2\\PublicDemo\\app\\src\\main\\res\\layout\\activity_public_nlu.xml"
+    },
+    {
+        "merged": "X:\\github\\HomeRemote\\Android\\Android_SDK_1.1.2\\Android_SDK_1.1.2\\PublicDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "X:\\github\\HomeRemote\\Android\\Android_SDK_1.1.2\\Android_SDK_1.1.2\\PublicDemo\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "X:\\github\\HomeRemote\\Android\\Android_SDK_1.1.2\\Android_SDK_1.1.2\\PublicDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_public_tts.xml",
+        "source": "X:\\github\\HomeRemote\\Android\\Android_SDK_1.1.2\\Android_SDK_1.1.2\\PublicDemo\\app\\src\\main\\res\\layout\\activity_public_tts.xml"
+    },
+    {
+        "merged": "X:\\github\\HomeRemote\\Android\\Android_SDK_1.1.2\\Android_SDK_1.1.2\\PublicDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_public_asr.xml",
+        "source": "X:\\github\\HomeRemote\\Android\\Android_SDK_1.1.2\\Android_SDK_1.1.2\\PublicDemo\\app\\src\\main\\res\\layout\\activity_public_asr.xml"
+    }
+]

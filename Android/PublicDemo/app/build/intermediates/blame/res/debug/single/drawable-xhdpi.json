@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "X:\\github\\HomeRemote\\Android\\Android_SDK_1.1.2\\Android_SDK_1.1.2\\PublicDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
+        "source": "X:\\github\\HomeRemote\\Android\\Android_SDK_1.1.2\\Android_SDK_1.1.2\\PublicDemo\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "X:\\github\\HomeRemote\\Android\\PublicDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
+        "source": "X:\\github\\HomeRemote\\Android\\PublicDemo\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    }
+]

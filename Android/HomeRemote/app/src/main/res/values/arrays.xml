@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="power">
+        <item>开机</item>
+        <item>关机</item>
+        <item>开电视</item>
+        <item>关电视</item>
+    </string-array>
+
+    <string-array name="channel">
+        <item>下</item>
+        <item>后</item>
+
+        <item>上</item>
+        <item>前</item>
+    </string-array>
+
+    <string-array name="volume">
+        <item>高</item>
+        <item>大</item>
+        <item>提高</item>
+        <item>增大</item>
+
+        <item>低</item>
+        <item>小</item>
+        <item>降低</item>
+        <item>减小</item>
+    </string-array>
+
+
+
+
+</resources>

@@ -11,8 +11,9 @@ def on_connect(client, userdata, flags, rc):
 def on_message(client, userdata, msg):
 	print(msg.topic + " " + str(msg.payload))
 	
-	if msg.payload == "test":
-		print("Test successfully")
+	if msg.payload == "电源":
+		print("电源")
+		os.system('irsend SEND_ONCE kaiyuanTV KEY_POWER')
 		
 		
 # Create and MQTT client
